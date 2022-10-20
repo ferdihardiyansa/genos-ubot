@@ -163,7 +163,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ferdihardiyansa/genos-ubot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -193,19 +193,19 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 genos-ubot")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "AyiinXd")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "genos")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚽")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✵")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "❤️")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "⍟")
+ICON_HELP = os.environ.get("ICON_HELP", "❌❌")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
