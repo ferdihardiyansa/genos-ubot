@@ -5,14 +5,14 @@ from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
 @ayiin_cmd(pattern="con(?: |$)(.*)")
-async def _(teemo):
+async def _(con):
     yins = await edit_or_reply(con, "`I HAVE CRUSH ON YOU`")
     sleep(3)
     await yins.edit("`EH TAPI BOOONG😛`")
 
 
 @ayiin_cmd(pattern="capek1(?: |$)(.*)")
-async def _(giveaway):
+async def _(capek1):
     ayiin = await edit_or_reply(capek1, "`BOLEH NGOMONG JUJUR BOLEH GA KAK?`")
     sleep(4)
     await ayiin.edit("`JUJUR`")
