@@ -23,9 +23,9 @@ async def _(capek1):
 @ayiin_cmd(pattern="capek2(?: |$)(.*)")
 async def _(uno):
     xd = await edit_or_reply(uno, "`BOLEH NGOMONG BANYAK HAL GA KAK?`")
-    sleep(2)
+    sleep(6)
     await xd.edit("`HAL HAL HAL HAL`")
-    sleep(1)
+    sleep(5)
     await xd.edit("`CAPE YAH? JANGAN SEMANGAT`")
 
 
