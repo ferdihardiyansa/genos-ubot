@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝘼𝙮𝙞𝙞𝙣 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">✨ genos ubot ✨</h1>
 
 <a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
 </p>
 
-👩‍💻 Ayiin-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 Genos-ubot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -47,7 +47,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/Ayiin-Userbot`
+ • `git clone https://github.com/ferdihardiyansa/genos-ubot`
 
  • `cd Ayiin-Userbot`
 
