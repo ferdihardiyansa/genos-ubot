@@ -4,41 +4,39 @@ from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
-@ayiin_cmd(pattern="teemo(?: |$)(.*)")
+@ayiin_cmd(pattern="con(?: |$)(.*)")
 async def _(teemo):
-    yins = await edit_or_reply(teemo, "`𝙏𝙚𝙚𝙢𝙢𝙤𝙤 𝙈𝙪𝙡𝙪 𝙇𝙪 😏`")
-    sleep(2)
-    await yins.edit("`𝙅𝙖𝙙𝙞𝙖𝙣 𝙅𝙪𝙜𝙖 𝙆𝙖𝙜𝙖𝙠 😂`")
-    sleep(1)
-    await yins.edit("`𝙏𝙖𝙥𝙞 𝙆𝙖𝙡𝙤 𝙇𝙪 𝙅𝙖𝙙𝙞𝙖𝙣, 𝙐𝙟𝙪𝙣𝙜-𝙐𝙟𝙪𝙣𝙜𝙣𝙮𝙖 𝙅𝙪𝙜𝙖 𝙆𝙚𝙣𝙖 𝙂𝙝𝙤𝙨𝙩𝙞𝙣𝙜 🤣`")
+    yins = await edit_or_reply(con, "`I HAVE CRUSH ON YOU`")
+    sleep(3)
+    await yins.edit("`EH TAPI BOOONG😛`")
 
 
-@ayiin_cmd(pattern="give(?: |$)(.*)")
+@ayiin_cmd(pattern="capek1(?: |$)(.*)")
 async def _(giveaway):
-    ayiin = await edit_or_reply(giveaway, "`𝙎𝙮𝙖𝙧𝙖𝙩 𝙄𝙠𝙪𝙩 𝙂𝙞𝙥𝙚𝙚𝙬𝙚𝙮`")
-    sleep(2)
-    await ayiin.edit("`𝙂𝙘𝙖𝙨𝙩 𝙈𝙞𝙣𝙞𝙢𝙖𝙡 10 𝙂𝙧𝙪𝙥`")
-    sleep(1)
-    await ayiin.edit("`𝙉𝙖𝙞𝙠 𝙊𝙨, 𝘿𝙖𝙣 𝙎𝙨 𝘽𝙪𝙠𝙩𝙞 𝙂𝙘𝙖𝙨𝙩`")
+    ayiin = await edit_or_reply(capek1, "`BOLEH NGOMONG JUJUR BOLEH GA KAK?`")
+    sleep(4)
+    await ayiin.edit("`JUJUR`")
+    sleep(3)
+    await ayiin.edit("`CAPE YAH? JANGAN SEMANGAT`")
 
 
-@ayiin_cmd(pattern="uno(?: |$)(.*)")
+@ayiin_cmd(pattern="capek2(?: |$)(.*)")
 async def _(uno):
-    xd = await edit_or_reply(uno, "`𝙆𝙖𝙠𝙠𝙠 👉👈`")
+    xd = await edit_or_reply(uno, "`BOLEH NGOMONG BANYAK HAL GA KAK?`")
     sleep(2)
-    await xd.edit("`𝘽𝙚𝙬𝙖𝙣 𝙐𝙣𝙤 𝙮𝙪𝙠 🙈`")
+    await xd.edit("`HAL HAL HAL HAL`")
     sleep(1)
-    await xd.edit("`𝙔𝙖𝙣𝙜 𝙆𝙖𝙡𝙖𝙝 𝙋𝙞𝙣𝙙𝙖𝙝 𝘼𝙜𝙖𝙢𝙖 🙊`")
+    await xd.edit("`CAPE YAH? JANGAN SEMANGAT`")
 
 
 CMD_HELP.update(
     {
         "gabut2": f"**Plugin : **`gabut2`\
-        \n\n  »  **Perintah :** `{cmd}teemo`\
+        \n\n  »  **Perintah :** `{cmd}con`\
         \n  »  **Kegunaan : **Coba Sendiri Tod.\
-        \n\n  »  **Perintah :** `{cmd}give`\
+        \n\n  »  **Perintah :** `{cmd}capek1`\
         \n  »  **Kegunaan : **Coba Sendiri Tod.\
-        \n\n  »  **Perintah :** `{cmd}uno`\
+        \n\n  »  **Perintah :** `{cmd}capek2`\
         \n  »  **Kegunaan : **Coba Sendiri Tod.\
     "
     }
