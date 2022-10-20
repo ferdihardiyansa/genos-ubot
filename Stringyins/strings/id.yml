@@ -605,7 +605,7 @@ pdf_3: "**ERROR: @office2pdf_bot tidak merespon, coba lagi nanti**"
 pdf_4: "**Mohon Reply ke teks apa pun**"
 
 # pmpermit tools
-prmt_1: "╔═════════════════════╗\n│ ㅤ     ❌DISCLAIMER ON❌ㅤ  ㅤ   \n╚═════════════════════╝\n📉 TOLONG JANGAN DI SPAM YAH \n📉 KALAU LU SPAM GUA NTAR BAKALAN KE BLOKIR OTOMATIS \n📉 JADI TUNGGU AJA SAMPAI BOSS GUA TERIMA PESAN LU\n╔═════════════════════╗\n│ㅤㅤ      ❌ 𝙿𝙴𝚂𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 ❌ㅤㅤ      \n│ㅤㅤ  ❌ Genos - Ubot ❌ㅤ  \n╚═════════════════════╝\n"
+prmt_1: "╔═════════════════════╗\n│ ㅤ     ❌DISCLAIMER ON❌ㅤ  ㅤ   \n╚═════════════════════╝\n📉 TOLONG JANGAN DI SPAM YAH \n📉 KALAU LU SPAM GUA NTAR BAKALAN KE BLOKIR OTOMATIS \n📉 JADI TUNGGU AJA SAMPAI BOSS GUA TERIMA PESAN LU\n╔═════════════════════╗\n|      ❌ 𝙿𝙴𝚂𝙰𝙽 𝙾𝚃𝙾𝙼𝙰𝚃𝙸𝚂 ❌       \n│            ❌ Genos - Ubot ❌            \n╚═════════════════════╝\n"
 prmt_2: "**Maaf Anda Diblokir karna melakukan spam ke tuan saya**"
 prmt_3: "**Terjadi Error Saat Menghitung Pesan pribadi, Mohon Restart Bot!**"
 prmt_4: "Gagal menghitung PM yang diterima"
