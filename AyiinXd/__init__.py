@@ -339,7 +339,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Ayiin-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Genos-Ubot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
