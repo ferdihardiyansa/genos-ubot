@@ -51,7 +51,7 @@ async def _(event):
 
 @ayiin_cmd(pattern="j(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**Ada Mpok Mpok ketemu topan**")
+    xx = await edit_or_reply(event, "**Ada Mpok ketemu topan**")
     sleep(3)
     await xx.edit("**Assalamu'alaikum dulu biar sopan**")
 
@@ -62,7 +62,7 @@ async def _(event):
     xx = await edit_or_reply(event, f"**Hallo guys saya {me.first_name}**")
     sleep(2)
     await xx.edit("**sarangheyo ❤️**")
-    sleep(4)
+    sleep(3)
     await xx.edit("**tapi boong**")
 
 
