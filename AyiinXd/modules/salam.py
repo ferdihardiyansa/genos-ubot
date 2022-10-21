@@ -9,7 +9,7 @@ from AyiinXd.ayiin import edit_or_reply, ayiin_cmd
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**Assalamualaikum Dulu Biar Sopan**",
+        "**Assalamualaikum ukhti*",
         reply_to=event.reply_to_msg_id,
     )
     await event.delete()
@@ -19,7 +19,7 @@ async def _(event):
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**Assalamualaikum Warahmatullahi Wabarakatuh**",
+        "**Assalamualaikum Akhii**",
         reply_to=event.reply_to_msg_id,
     )
     await event.delete()
@@ -36,7 +36,7 @@ async def _(event):
 @ayiin_cmd(pattern="l(?: |$)(.*)")
 async def _(event):
     await event.client.send_message(
-        event.chat_id, "**Wa'alaikumsalam**", reply_to=event.reply_to_msg_id
+        event.chat_id, "**Wa'alaikumsalam Masya allah**", reply_to=event.reply_to_msg_id
     )
     await event.delete()
 
@@ -51,17 +51,19 @@ async def _(event):
 
 @ayiin_cmd(pattern="j(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**JAKA SEMBUNG BAWA GOLOK**")
+    xx = await edit_or_reply(event, "**Ada Mpok Mpok ketemu topan**")
     sleep(3)
-    await xx.edit("**NIMBRUNG GOBLOKK!!!🔥**")
+    await xx.edit("**Assalamu'alaikum dulu biar sopan**")
 
 
 @ayiin_cmd(pattern="k(?: |$)(.*)")
 async def _(event):
     me = await event.client.get_me()
-    xx = await edit_or_reply(event, f"**Hallo KIMAAKK SAYA {me.first_name}**")
+    xx = await edit_or_reply(event, f"**Hallo guys saya {me.first_name}**")
     sleep(2)
-    await xx.edit("**LU SEMUA NGENTOT 🔥**")
+    await xx.edit("**sarangheyo ❤️**")
+    sleep(4)
+    await xx.edit("**tapi boong**")
 
 
 @ayiin_cmd(pattern="ass(?: |$)(.*)")
@@ -89,7 +91,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}sayang`\
         \n  »  **Kegunaan : **Kata I Love You.\
         \n\n  »  **Perintah :** `{cmd}k`\
-        \n  »  **Kegunaan : **LU SEMUA NGENTOT 🔥\
+        \n  »  **Kegunaan : **Coba Aja Sendiri\
         \n\n  »  **Perintah :** `{cmd}j`\
         \n  »  **Kegunaan : **NIMBRUNG GOBLOKK!!!🔥\
     "
