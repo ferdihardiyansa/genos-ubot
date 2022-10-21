@@ -93,7 +93,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}k`\
         \n  »  **Kegunaan : **Coba Aja Sendiri\
         \n\n  »  **Perintah :** `{cmd}j`\
-        \n  »  **Kegunaan : **NIMBRUNG GOBLOKK!!!🔥\
+        \n  »  **Kegunaan : **pantun salam\
     "
     }
 )
