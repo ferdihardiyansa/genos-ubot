@@ -9,7 +9,7 @@ from AyiinXd.ayiin import edit_or_reply, ayiin_cmd
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "**Assalamualaikum ukhti*",
+        "**Assalamualaikum ukhti**",
         reply_to=event.reply_to_msg_id,
     )
     await event.delete()
