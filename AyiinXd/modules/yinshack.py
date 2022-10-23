@@ -12,7 +12,7 @@ from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
-@ayiin_cmd(pattern=r"hacking(?: |$)(.*)")
+@ayiin_cmd(pattern=r"hack(?: |$)(.*)")
 async def _(kontol):
     ayiin = await edit_or_reply(kontol, "Installing.")
     await ayiin.edit("Installing..")
