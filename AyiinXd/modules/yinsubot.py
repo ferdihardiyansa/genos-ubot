@@ -28,12 +28,12 @@ async def _(a):
 # Create by myself @localheart
 
 
-@ayiin_cmd(pattern=r"lah(?: |$)(.*)")
+@ayiin_cmd(pattern=r"menua(?: |$)(.*)")
 async def _(y):
     ayiin = await eor(y, get_string("yibot_4"))
-    sleep(1)
+    sleep(3)
     await ayiin.edit(get_string("yibot_5"))
-    sleep(1)
+    sleep(1.5)
     await ayiin.edit(get_string("yibot_6"))
     sleep(1)
     await ayiin.edit(get_string("yibot_7"))
@@ -149,8 +149,8 @@ CMD_HELP.update(
         \n  »  **Kegunaan : **Ngeledek orang sok war\
         \n\n  »  **Perintah :** `{cmd}sok`\
         \n  »  **Kegunaan : **Ngeledek orang sok keras\
-        \n\n  »  **Perintah :** `{cmd}lah`\
-        \n  »  **Kegunaan : **Engga ketrigger tod\
+        \n\n  »  **Perintah :** `{cmd}menua`\
+        \n  »  **Kegunaan : **gombalan doang\
         \n\n  »  **Perintah :** `{cmd}alay`\
         \n  »  **Kegunaan : **Ngatain orang spam bot\
         \n\n  »  **Perintah :** `{cmd}erpe`\
