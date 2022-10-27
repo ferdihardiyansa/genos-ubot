@@ -19,7 +19,7 @@ from Stringyins import get_string
 
 @ayiin_cmd(pattern=r"at(?: |$)(.*)")
 async def _(a):
-    ayiin = eor(a, get_string("yibot_1"))
+    ayiin = await eor(a, get_string("yibot_1"))
     sleep(3)
     await ayiin.edit(get_string("yibot_2"))
     sleep(3)
