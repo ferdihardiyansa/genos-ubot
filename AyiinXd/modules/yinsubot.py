@@ -17,12 +17,12 @@ from AyiinXd.ayiin import ayiin_cmd, eor
 from Stringyins import get_string
 
 
-@ayiin_cmd(pattern=r"sadboy(?: |$)(.*)")
+@ayiin_cmd(pattern=r"alditaher(?: |$)(.*)")
 async def _(a):
     ayiin = eor(a, get_string("yibot_1"))
-    sleep(2)
+    sleep(3)
     await ayiin.edit(get_string("yibot_2"))
-    sleep(1)
+    sleep(3)
     await ayiin.edit(get_string("yibot_3"))
 
 # Create by myself @localheart
@@ -143,8 +143,8 @@ async def _(d):
 CMD_HELP.update(
     {
         "yinsubot": f"**Plugin : **`yinsubot`\
-        \n\n  »  **Perintah :** `{cmd}sadboy`\
-        \n  »  **Kegunaan : **Gombalan sad\
+        \n\n  »  **Perintah :** `{cmd}alditaher`\
+        \n  »  **Kegunaan : **Aldi taher nyanyi\
         \n\n  »  **Perintah :** `{cmd}wah`\
         \n  »  **Kegunaan : **Ngeledek orang sok war\
         \n\n  »  **Perintah :** `{cmd}sok`\
