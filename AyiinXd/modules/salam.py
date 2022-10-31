@@ -66,10 +66,11 @@ async def _(event):
     await xx.edit("**tapi boong**")
 
 
-@ayiin_cmd(pattern="ass(?: |$)(.*)")
+@ayiin_cmd(pattern="bgt(?: |$)(.*)")
 async def _(event):
+    me = await event.client.get_me()
     xx = await edit_or_reply(event, "**begitu syulitt lupakan {me.first_name}**")
-    sleep(2)
+    sleep(2.5)
     await xx.edit("**apalagi {me.first_name} baik🥰**")
 
 
