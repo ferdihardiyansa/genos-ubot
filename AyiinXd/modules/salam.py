@@ -69,7 +69,7 @@ async def _(event):
 @ayiin_cmd(pattern="bgt(?: |$)(.*)")
 async def _(event):
     me = await event.client.get_me()
-    xx = await edit_or_reply(event, "**begitu syulitt lupakan {me.first_name}**")
+    xx = await edit_or_reply(event, f"**begitu syulitt lupakan {me.first_name}**")
     sleep(2.5)
     await xx.edit("**apalagi {me.first_name} baik🥰**")
 
