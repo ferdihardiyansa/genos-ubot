@@ -68,9 +68,9 @@ async def _(event):
 
 @ayiin_cmd(pattern="ass(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**Salam Dulu Biar Sopan**")
+    xx = await edit_or_reply(event, "**begitu syulitt lupakan {me.first_name}**")
     sleep(2)
-    await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
+    await xx.edit("**apalagi {me.first_name} baik🥰**")
 
 
 CMD_HELP.update(
@@ -82,8 +82,8 @@ CMD_HELP.update(
         \n  »  **Kegunaan : **salam Kenal dan salam\
         \n\n  »  **Perintah :** `{cmd}l`\
         \n  »  **Kegunaan : **Untuk Menjawab salam\
-        \n\n  »  **Perintah :** `{cmd}ass`\
-        \n  »  **Kegunaan : **Salam Bahas arab\
+        \n\n  »  **Perintah :** `{cmd}bgt`\
+        \n  »  **Kegunaan : **begitu syulit\
         \n\n  »  **Perintah :** `{cmd}semangat`\
         \n  »  **Kegunaan : **Memberikan Semangat.\
         \n\n  »  **Perintah :** `{cmd}ywc`\
