@@ -71,7 +71,7 @@ async def _(event):
     me = await event.client.get_me()
     xx = await edit_or_reply(event, f"**begitu syulitt lupakan {me.first_name}**")
     sleep(2.5)
-    await xx.edit("**apalagi {me.first_name} baik🥰**")
+    await xx.edit("**apalagi {me.first_name}baik**")
 
 
 CMD_HELP.update(
