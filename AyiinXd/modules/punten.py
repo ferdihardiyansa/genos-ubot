@@ -19,13 +19,13 @@ async def _(event):
 
 @ayiin_cmd(pattern="at2(?: |$)(.*)")
 async def _(event):
-    await event.edit("*Nissa sabyan i love you so much*")
-    sleep(2)
-    await event.edit("*Nissa sabya...n tetap semangat*")
-    sleep(2)
-    await event.edit("*Nissa sabyan kok cantik banget*")
-    sleep(2)
-    await event.edit("*Nissa sabya...n tetap semangat*")
+    await event.edit("**Nissa sabyan i love you so much**")
+    sleep(3.2)
+    await event.edit("**Nissa sabya...n tetap semangat**")
+    sleep(3.2)
+    await event.edit("**Nissa sabyan kok cantik banget**")
+    sleep(3.2)
+    await event.edit("**Nissa sabya...n tetap semangat**")
 
 
 @ayiin_cmd(pattern="pantau(?: |$)(.*)")
