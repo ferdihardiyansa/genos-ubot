@@ -17,18 +17,15 @@ async def _(event):
 # Create by myself @localheart
 
 
-@ayiin_cmd(pattern="punten(?: |$)(.*)")
+@ayiin_cmd(pattern="at2(?: |$)(.*)")
 async def _(event):
-    await event.edit(
-        "`\n┻┳|―-∩`"
-        "`\n┳┻|     ヽ`"
-        "`\n┻┳|    ● |`"
-        "`\n┳┻|▼) _ノ`"
-        "`\n┻┳|￣  )`"
-        "`\n┳ﾐ(￣ ／`"
-        "`\n┻┳T￣|`"
-        "\n**Punten**"
-    )
+    await event.edit("*Nissa sabyan i love you so much*")
+    sleep(2)
+    await event.edit("*Nissa sabya...n tetap semangat*")
+    sleep(2)
+    await event.edit("*Nissa sabyan kok cantik banget*")
+    sleep(2)
+    await event.edit("*Nissa sabya...n tetap semangat*")
 
 
 @ayiin_cmd(pattern="pantau(?: |$)(.*)")
@@ -51,7 +48,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "punten": f"**Plugin : **`Animasi Punten`\
-        \n\n  »  **Perintah :** `{cmd}punten` ; `{cmd}pantau`\
+        \n\n  »  **Perintah :** `{cmd}at2` ; `{cmd}pantau`\
         \n  »  **Kegunaan : **Arts Beruang kek lagi mantau.\
         \n\n  »  **Perintah :** `{cmd}sadboy`\
         \n  »  **Kegunaan : **ya sadboy coba aja.\
