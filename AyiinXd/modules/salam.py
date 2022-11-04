@@ -72,13 +72,32 @@ async def _(event):
     xx = await edit_or_reply(event, f"**begitu syulitt lupakan {me.first_name}**")
     sleep(2.5)
     await xx.edit(f"**apa lagi {me.first_name} baik🥰 **")
-
+    
+    
+@ayiin_cmd(pattern="km(?: |$)(.*)")
+async def _(event):
+    xx = await edit_or_reply(event, "**kamoe nanyea?**")
+    sleep(2)
+    await xx.edit("**kamoe masih bertanyeh tanyeah**")
+    sleep(3)
+    await xx.edit("**kamoe mau tau nama cukuer rambut akoe cukuoer apa?**")
+    sleep(3)
+    await xx.edit("**biar akoe kasih tau yeah nama coekoe aku itu mem*k**")
+    sleep(3)
+    await xx.edit("**eh salah**")
+    sleep(2)
+    await xx.edit("**cepmek maksudya**")
+    sleep(3)
+    await xx.edit("**ingat jangan lupa yeah nama cukur rambutnya rwrr🦖**")
+    
 
 CMD_HELP.update(
     {
         "salam": f"**Plugin : **`salam`\
         \n\n  »  **Perintah :** `{cmd}p`\
         \n  »  **Kegunaan : **Assalamualaikum Dulu Biar Sopan..\
+        \n\n  »  **Perintah :** `{cmd}km`\
+        \n  »  **Kegunaan : **kamoe nanya\
         \n\n  »  **Perintah :** `{cmd}pe`\
         \n  »  **Kegunaan : **salam Kenal dan salam\
         \n\n  »  **Perintah :** `{cmd}l`\
